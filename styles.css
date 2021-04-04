@@ -8,17 +8,19 @@
 
 nav {
     height: 4em;
+    /* width: 8em; */
+    /* margin: 0 auto; */
 
-    display: flex; 
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.icons {
+    width: 50%;
+    display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-#logo {
-}
-
-#hamburger {
-    justify-self: start;
+    justify-content: space-between;
 }
 
 .slash {
@@ -30,6 +32,12 @@ nav img {
     margin-top: 0.45em;
     width: 3em;
     height: 3em;
+}
+
+#hamburger {
+    margin-left: 0.9em;
+    width: 2em;
+    height: 2em;
 }
 
 .sections {
@@ -54,7 +62,7 @@ header {
     left: 0;
 
     width: 100vw;
-    height: 50vh;
+    height: 70vh;
     
     background-color: #663399;
 
@@ -62,7 +70,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover; */
 
-    clip-path: polygon(0 2%, 100% 1%, 100% 89%, 0% 100%);
+    clip-path: polygon(0 2%, 100% 1%, 100% 91%, 0% 100%);
 
     display: flex;
     flex-direction: row;
@@ -71,9 +79,11 @@ header {
 }
 
 header img {
-    height: 23em;
-    width: 23em;
+    height: 25em;
+    width: 25em;
     clip-path: circle(50%);
+
+    margin-bottom: 2em;
 }
 
 .title {
