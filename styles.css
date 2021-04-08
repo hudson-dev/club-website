@@ -7,11 +7,13 @@
 }
 
 nav {
-    height: 4em;
+    height: 6.4em;
     /* width: 8em; */
     /* margin: 0 auto; */
 
     display: flex;
+
+    flex-direction: column;
     justify-content: flex-start;
     align-content: center;
 }
@@ -21,11 +23,21 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    margin-bottom: 0.35em;
 }
 
 .slash {
-    width: 20%;
-    height: 4em;
+    width: 100vw;
+    height: 40em;
+
+    background-color: #663399;
+
+    clip-path: polygon(0 3%, 100% 1%, 100% 91%, 0% 98%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav img {
@@ -45,8 +57,7 @@ nav img {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
 
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
@@ -57,20 +68,23 @@ nav img {
     border-top: 1px solid #dbdbdb;
 }
 
+.sections h3 {
+    width: 25%;
+    max-width: 18em;
+    text-align: center;
+
+}
+
 header {
     position: absolute;
-    left: 0;
 
-    width: 100vw;
-    height: 70vh;
+    width: 70em;
+    height: 40em;
     
-    background-color: #663399;
 
     /* background-image: url(assets/robot.jpeg);
     background-repeat: no-repeat;
     background-size: cover; */
-
-    clip-path: polygon(0 2%, 100% 1%, 100% 91%, 0% 100%);
 
     display: flex;
     flex-direction: row;
@@ -95,7 +109,7 @@ header img {
     margin-top: 0.5em;
     margin-bottom: 0.6em;
 
-    font-size: 3em;
+    font-size: 3.3em;
     font-family: utopia-std, serif;
     font-weight: 700;
     font-style: normal;
