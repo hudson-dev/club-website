@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 * {
     margin: 0px;
@@ -16,15 +17,25 @@ nav {
     flex-direction: column;
     justify-content: flex-start;
     align-content: center;
+
 }
 
-.icons {
+/* .icons {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     margin-bottom: 0.35em;
+} */
+
+.icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 0.5em;
 }
 
 .slash {
@@ -60,7 +71,7 @@ nav img {
     justify-content: center;
 
     font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
+    font-weight: 200;
     font-size: 0.96em;
     word-spacing: 0.3em;
 
@@ -123,12 +134,27 @@ header img {
 }
 
 .line {
-border-left: 5px solid #663399;
-  height: 650px;
+  border-left: 3.2px solid #663399;
+  height: 630px;
   position: absolute;
   left: 50%;
   margin-left: -3px;
   top: 8em;
+}
+
+#made-of {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+
+    margin-top: 1.4em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.purple {
+    color: #663399;
+    background-color: transparent;
 }
 
 .cards {
@@ -141,7 +167,7 @@ border-left: 5px solid #663399;
 
 .spacer {
     flex-shrink: 0;
-    height: 20em;
+    height: 16em;
     width: 30vw;
 }
 
@@ -149,10 +175,14 @@ border-left: 5px solid #663399;
     flex-shrink: 0;
 
     background-color: blue;
-    height: 20em;
-    width: 400px;
-    border-radius: 0.5em;
+    height: 18em;
+    width: 245px;
+    border-radius: 0.4em;
 
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.card img {
+    
 }
