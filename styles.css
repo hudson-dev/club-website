@@ -121,3 +121,38 @@ header img {
     font-size: 0.96em;
     word-spacing: 0.3em;
 }
+
+.line {
+border-left: 5px solid #663399;
+  height: 650px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 8em;
+}
+
+.cards {
+    width: 100vw;
+    margin-bottom: 10em;
+
+    display: flex;
+    overflow-x: auto;
+}
+
+.spacer {
+    flex-shrink: 0;
+    height: 20em;
+    width: 30vw;
+}
+
+.card {
+    flex-shrink: 0;
+
+    background-color: blue;
+    height: 20em;
+    width: 400px;
+    border-radius: 0.5em;
+
+    margin-left: 4em;
+    margin-right: 4em;
+}
