@@ -162,7 +162,8 @@ header img {
     margin-bottom: 10em;
 
     display: flex;
-    overflow-x: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .spacer {
@@ -172,7 +173,11 @@ header img {
 }
 
 .card {
-    flex-shrink: 0;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
     background-color: blue;
     height: 18em;
@@ -183,6 +188,12 @@ header img {
     margin-right: 1em;
 }
 
+.card h3 {
+    font-family: Montserrat;
+}
+
 .card img {
     
 }
+
+
