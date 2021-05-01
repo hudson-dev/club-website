@@ -5,6 +5,8 @@
 * {
     margin: 0px;
     padding: 0px;
+
+    overflow-x: hidden;
 }
 
 nav {
@@ -17,7 +19,6 @@ nav {
     flex-direction: column;
     justify-content: flex-start;
     align-content: center;
-
 }
 
 /* .icons {
@@ -142,11 +143,22 @@ header img {
   top: 8em;
 }
 
+.second-slash {
+    background-color: #e8e0ff;
+    height: 47em;
+    width: 100vw;
+    position: absolute;
+    top: 40em;
+    z-index: -1;
+
+    overflow-y: hidden;
+}
+
 #made-of {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3em;
+    font-size: 3.3em;
 
-    margin-top: 1.4em;
+    margin-top: 3em;
     display: flex;
     justify-content: center;
     margin-bottom: 1em;
@@ -179,9 +191,9 @@ header img {
     justify-content: center;
     flex-direction: column;
 
-    background-color: blue;
-    height: 18em;
-    width: 245px;
+    background-color: white;
+    height: 21em;
+    width: 18em;
     border-radius: 0.4em;
 
     margin-left: 1em;
