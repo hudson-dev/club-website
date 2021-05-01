@@ -7,7 +7,6 @@
   - [General info](#general-info)
   - [Technologies](#technologies)
   - [Setup](#setup)
-  - [Features](#features)
   - [Status](#status)
   - [Inspiration](#inspiration)
   - [Contact](#contact)
@@ -22,7 +21,7 @@ A challenge project for Codecademy's Full Stack Pro Path to help familiarize me 
 * Command Line
 
 ## Setup
-To view this project visit this website: 
+To view this project visit this website: https://hudson-dev.github.io/club-website/
 
 ## Status
 Project is: _done_
