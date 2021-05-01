@@ -261,13 +261,82 @@ header img {
   }
 
 .third-slash {
-    width: 100vw;
-    height: 40em;
+    width: 100%;
+    height: 100em;
 
     background-color: white;
 
-    clip-path: polygon(0 0, 100% 11%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 4%, 100% 100%, 0% 100%);
+    
+    overflow-y: hidden;
 
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scoops {
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.scoop {
+    display: flex;
+    background-color: white;
+
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+
+    height: 24.5em;
+    width: 18em;
+    border-radius: 0.1em;
+
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 4em;
+}
+
+.scoop h3 {
+    font-family: utopia-std, serif;
+    font-weight: 900;
+    font-size: 22px;
+    margin-right: 13%;
+    margin-left: 13%;
+}
+
+.scoop h4 {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+
+    margin-top: 1.9em;
+    margin-left: 13%;
+}
+
+.scoop img {
+    height: 14em;
+    width: 18em;
+    object-fit: cover;
+    margin-bottom: 1.5em;
+}
+
+.view-more {
+    width: 260px;
+    height: 60px;
+    background: white;
+    color: #52287c;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid #bfbfbf;
+
+    border-radius: 5px;
+
+    display: block;
 }
